@@ -1,0 +1,1 @@
+give @s minecraft:diamond_sword[minecraft:custom_name={text:"Sky Sword",color:"aqua",italic:false},minecraft:lore=[{text:"Sneak to launch into the sky!",color:"gray"}],minecraft:custom_data={sky_sword:1b},minecraft:enchantment_glint_override=true]

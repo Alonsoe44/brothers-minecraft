@@ -1,0 +1,14 @@
+# Big or machine-specific stuff that doesn't belong on GitHub
+runtime/
+tools/
+server/
+client-mods/
+prism/*.zip
+.DS_Store
+
+# Mod build output
+brothers-mod/build/
+brothers-mod/.gradle/
+brothers-mod/run/
+brothers-mod/.idea/
+*.iml

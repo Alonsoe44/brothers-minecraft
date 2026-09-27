@@ -1,0 +1,13 @@
+name = "Brothers Pack"
+author = "Emiliano & Brother"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "a12807cb06eaa2d597bab2e6ec7585198f7fcab01b7132cfc51a40b99ddde344"
+
+[versions]
+fabric = "0.19.5"
+minecraft = "26.3"

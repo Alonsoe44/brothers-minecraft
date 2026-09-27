@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "hit": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:cat",
+            "minecraft:nbt": "{Tags:[\"kitty\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": { "function": "brothers:kitty_hit" }
+}

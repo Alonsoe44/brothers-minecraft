@@ -1,0 +1,10 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/brothersmod-1.0.0.jar"
+hash = "687a35e3cb4405e6b0d59b53a58ecb876fcdee458ad5881aa8574077fcbc7105"
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "6b342a83e9736f0832e750c8d631273cf600305d73b32c8bd6a977811f6972ee"
+metafile = true

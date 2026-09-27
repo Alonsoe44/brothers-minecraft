@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "brothersmod",
+	"version": "${version}",
+	"name": "Brothers Mod",
+	"description": "Absurd ideas, made real. Designed by my brother, engineered with Claude.",
+	"authors": ["Emiliano", "Brother"],
+	"license": "CC0-1.0",
+	"icon": "assets/brothersmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.brothers.BrothersMod"],
+		"client": ["com.brothers.client.BrothersModClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

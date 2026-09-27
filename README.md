@@ -35,15 +35,18 @@ Both of you need Minecraft **Java Edition 26.3**.
 ## Mod items (you both need the mod installed, see below)
 - **Yogurt de Fresa**: `/give @s brothersmod:yogurt_de_fresa`, or craft it (milk bucket + sweet berries + sugar + bowl). Right-click to summon your Kitty with a lightning strike; right-click again to send Kitty away.
 
-## Installing the mod in your Minecraft (both of you, once)
-1. Download the Fabric installer from https://fabricmc.net/use/installer/ and run it. Pick **Client**, Minecraft **26.3**, then Install.
-2. Open your Minecraft `mods` folder (create it if missing):
-   - Mac: `~/Library/Application Support/minecraft/mods`
-   - Windows: press Win+R, type `%appdata%\.minecraft\mods`
-3. Copy both jars from this project's `client-mods/` folder into it.
-4. In the Minecraft Launcher, pick the **fabric-loader-26.3** profile and press Play.
+## Playing with the mods: Prism Launcher (both of you, once)
+1. Install [Prism Launcher](https://prismlauncher.org) and sign in with your Microsoft account.
+2. Download **BrothersPack.zip** from https://github.com/Alonsoe44/brothers-minecraft/releases/tag/setup
+3. In Prism: **Add Instance → Import** → pick the zip → OK.
+4. Launch **Brothers Pack**. Before the game opens, it downloads the latest mods from GitHub. That happens every launch, so you're always in sync.
 
-Every time the mod changes, copy the new `client-mods/brothersmod-*.jar` over the old one (on both computers).
+## Publishing a new version of the mod
+```
+./build-mod.sh
+./publish.sh "Added the flying pig"
+```
+Then restart the server (`stop`, then `./start.sh`) and both of you relaunch Prism.
 
 ## Making new stuff with Claude
 Your brother describes an idea, you tell Claude Code, and Claude builds it.
